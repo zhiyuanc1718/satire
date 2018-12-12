@@ -1,0 +1,15 @@
+.heading {
+    text-align: center;
+    
+}
+
+.container {
+    background-color: rgb(200,150,150);
+    padding: 40px;
+    font-size: 20px;
+}
+
+#cast {
+    font-size: 20px;
+    
+}
