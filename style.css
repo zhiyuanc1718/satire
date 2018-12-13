@@ -10,7 +10,8 @@
 }
 
 #cast {
-    font-size: 20px;
+    font-size: 25px;
+     font-family: 'Charm', cursive;
     
 }
 
@@ -18,5 +19,12 @@
     width:70%;
     height:10%;
     margin: 0 auto;
+    
+}
+
+
+h2{
+    font-family:  'Charm', cursive;
+    font-size: 30px
     
 }
