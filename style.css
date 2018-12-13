@@ -1,10 +1,11 @@
 .heading {
     text-align: center;
-    
+    font-family: 'Major Mono Display', monospace;
+
 }
 
 .container {
-    background-color: rgb(200,150,150);
+    background-color: rgb(135,206,250);
     padding: 40px;
     font-size: 20px;
 }
@@ -15,8 +16,9 @@
 }
 
 .synopsis {
-    width:70%;
+    width:80%;
     height:10%;
     margin: 0 auto;
+    letter-spacing: 5px;
     
 }
