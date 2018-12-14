@@ -4,9 +4,11 @@
 }
 
 .container {
-    background-color: rgb(135,206,250);
+    /*background-color: rgb(135,206,250);*/
+    background-color: lightgrey;
     padding: 40px;
     font-size: 20px;
+    opacity: 0.90
 }
 
 #cast {
@@ -30,9 +32,10 @@
 
 h2{
     font-family:  'Charm', cursive;
-    font-size: 30px
+    font-size: 30px;
     
 }
+
 
 
 
@@ -49,10 +52,10 @@ body{
     background-image: url("game-over.png");
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
+#phone {
+    background-image: url("phone.png");
+    /*https://svgsilh.com/image/2435642.html*/
 
-
-
-
+}
