@@ -34,8 +34,21 @@ h2{
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
 body{
-    background-image: url("phone.png");
+    background-image: url("game-over.png");
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
 
