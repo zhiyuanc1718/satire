@@ -38,5 +38,7 @@ h2{
 
 #phone {
     background-image: url("phone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     /*https://svgsilh.com/image/2435642.html*/
 }
