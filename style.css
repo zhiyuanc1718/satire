@@ -1,34 +1,48 @@
 .heading {
     text-align: center;
     font-family: 'Major Mono Display', monospace;
+    padding: 100px;
+    color: red;
+}
+.title {
+    color: coral;
+    padding: 50px;
 }
 
 .container {
     /*background-color: rgb(135,206,250);*/
-    background-color: lightgrey;
-    padding: 40px;
+    
+    padding: 50px;
     font-size: 20px;
-    opacity: 0.90
+    opacity: 0.
 }
 
-#cast {
-    font-size: 25px;
-     font-family: 'Charm', cursive;
+.name {
+    width:200px;
     
+    font-size: 25px;
+    font-family: 'Charm', cursive;
+    display: inline-block;
+    margin: auto 10.5%;
+    text-align: center;
+    background-color: skyblue;
+    border-color: red;
 }
 
 .synopsis {
-    width:80%;
+    
     height:10%;
+    min-width: 280px;
+    max-width: 980px;
     margin: 0 auto;
     letter-spacing: 5px;
     font-size: 25px;
     padding: 10px;
     color: red;
-    opacity: 0.8
+    opacity: 0.5;
+    
     
 }
-
 
 h2{
     font-family:  'Charm', cursive;
@@ -36,26 +50,22 @@ h2{
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    background-image: url("game-over.png");
+game-over{
+    background-image: url("gameover.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
 #phone {
     background-image: url("phone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     /*https://svgsilh.com/image/2435642.html*/
 
+}
+
+body{
+    background-color: lightblue;
 }
