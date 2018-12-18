@@ -27,11 +27,18 @@ h2{
     padding: 20px;
     font-size: 25px;
     font-family: 'Charm', cursive;
-    display: block;
+    display: inline-block;
     margin: auto;
     margin-bottom: 50px;
     text-align: center;
     background-color: skyblue;
+    position: relative;
+    left: 32%;
+    margin-right: 40px;
+}
+
+.center{
+    width:120%;
 }
 
 .synopsis {
@@ -43,7 +50,7 @@ h2{
     letter-spacing: 5px;
     font-size: 25px;
     padding: 10px;
-    color: white;
+    color: red;
     opacity: 0.8;
     
     
@@ -59,9 +66,7 @@ h2{
     background-image: url("gameover.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding:10px;
-    float:none;
-    
+    padding:200px;
 }
 
 
