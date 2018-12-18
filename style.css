@@ -17,13 +17,18 @@
     opacity: 0.
 }
 
+.cast{
+    text-align: center;
+    font-size: 40px;
+}
+
 .name {
     width:200px;
     
     font-size: 25px;
     font-family: 'Charm', cursive;
     display: inline-block;
-    margin: auto 10.5%;
+    margin: 0 11%;
     text-align: center;
     background-color: skyblue;
     border-color: red;
@@ -40,8 +45,6 @@
     padding: 10px;
     color: red;
     opacity: 0.5;
-    
-    
 }
 
 h2{
