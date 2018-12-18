@@ -38,8 +38,8 @@
     letter-spacing: 5px;
     font-size: 25px;
     padding: 10px;
-    color: red;
-    opacity: 0.5;
+    color: black;
+    opacity: 0.8;
     
     
 }
@@ -50,10 +50,12 @@ h2{
     
 }
 
-game-over{
+#game{
     background-image: url("gameover.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding:10px;
+    
 }
 
 
