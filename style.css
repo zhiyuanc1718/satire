@@ -17,21 +17,21 @@
     opacity: 0.
 }
 
-.cast{
+h2{
     text-align: center;
     font-size: 40px;
 }
 
 .name {
-    width:200px;
-    
+    width:150px;
+    padding: 20px;
     font-size: 25px;
     font-family: 'Charm', cursive;
-    display: inline-block;
-    margin: 0 11%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
     text-align: center;
     background-color: skyblue;
-    border-color: red;
 }
 
 .synopsis {
@@ -43,7 +43,7 @@
     letter-spacing: 5px;
     font-size: 25px;
     padding: 10px;
-    color: black;
+    color: white;
     opacity: 0.8;
     
     
@@ -59,7 +59,7 @@ h2{
     background-image: url("gameover.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding:10px;
+    padding: 100px;
     
 }
 
