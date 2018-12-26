@@ -26,6 +26,33 @@ h2{
     font-size: 40px;
 }
 
+.linking{
+    float: right;
+    margin-right: 100px;
+    width:400px;
+    height:200px;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+a{
+    color:red;
+}
+.sequel{
+    background-image: url("phone.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    text-align:right;
+}
+
+.prequel{
+    background-image: url("gameover.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    text-align: center;
+    color:white;
+}
 .name {
     width:150px;
     padding: 20px;
