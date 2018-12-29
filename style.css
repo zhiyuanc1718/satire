@@ -10,6 +10,12 @@
     padding: 50px;
 }
 
+#trailer {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
 span {
     color: darkblue;
     font-size: larger;
