@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!--Credits image by Osckar: https://pixabay.com/en/wallpaper-video-game-1176309/-->
 <head>
     <meta charset="UTF-8">
     <title>Satire</title>
@@ -9,10 +9,10 @@
 
 <body>
     <div id="game">
-        <h1 class="heading">Satire</h1>
+        <h1 class="heading"><em>SATIRE</em></h1>
     </div>
     <div>
-        <p class="synopsis">Synopsis: A boy who loves his video games too much starts buying them illegally!!! These video games start to change him. When playing video games goes too far ...
+        <p class="synopsis">A boy who loves his <span>video games</span> too much starts buying them illegally!!! These video games start to change him. When playing video games <span>goes too far</span> ...
         </p>
     </div>
 
@@ -26,26 +26,39 @@
         <p class="name">K.Naseer</p>
         <p class="name">C.Gitelson</p>
     </div>
+    <div id="trailer">
+        <p> WATCH TRAILER BELOW</p>
+        <video width="400" height="250" controls>
+        <source src="game-addict.mp4">
+        Your browser does not support this video.
+        </video>
+    </div>
     <div class="container">
-        <p>Coming out IN THEATERS NEAR YOU! </p>
+        <p class="linking sequel"><a href="sequel.html">Sequel's trailer</a>
+            <br><br> "Phone Deal"
+            <br><br> Satire the movie
+            <br><br> <b>Tele Productions</b></p>
+        <p><b>Coming out IN THEATERS NEAR YOU! </b></p>
 
         <form action="http://www.w3schools.com/action_page.php" method="get">
-
-            <textarea name="message" placeholder="Are you addicted to video games? " required></textarea>
-
-
-
             <br> Are you Buying a ticket?
-            <br> Release Date : March 19th, 2054
 
-            <br> How many tickets:
+            <br>
+            <br> Release Date : <b><em>January 1st 2019</em></b>
+            <br>
+            <br>
+            <label class="form"><b>How many tickets: </b></label>
+>>>>>>> 88d4c51a5e4ad53a184bd3f693856dcd647488ad
             <input type="checkbox" name="ticket" value="1"> 1
             <input type="checkbox" name="tickets" value="2"> 2
             <input type="checkbox" name="tickets" value="3"> 3
             <input type="checkbox" name="tickets" value="4"> 4
             <input type="checkbox" name="tickets" value="5"> The Whole Row
-            <br>What showtime will you be watching?: <select name="time">
-                
+            <br>
+            <br>
+            <label class="form"><b>What showtime will you be watching?: </b></label>
+
+            <select name="time">
                    <option value="9AM"> 9AM </option> 
                    <option value="10Am"> 10Am</option>
                    <option value="11AM"> 11Am </option> 
@@ -56,13 +69,26 @@
                    <option value="4PM"> 4PM </option> 
                    <option value="5PM"> 5PM </option> 
                    <option value="6PM"> 6PM </option> 
-                   <br>
-                   
-                   <br> 
-                   <input class="blue-button" type="submit" value="Submit">
-                   
-                   
             </select>
+            <br>
+            <br>
+            <label class="form"><b>Payment Option : </b></label>
+            <select id="Payment" name="Payment">
+                <option value="MasterCard">MasterCard</option>
+                <option value="VISA">VISA</option>
+                <option value="American Express">American Express</option>
+             </select>
+            <br>
+            <br>
+            <label class="form"><b>Credit Card Number : </b></label>
+            <input type="text" name="credit-card" placeholder="4111111111111111" required>
+            <br>
+            <br>
+            <textarea cols="50" rows="5" name="message" placeholder=" Are you addicted to video games? " required></textarea>
+
+            <br>
+            <br>
+            <input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
 

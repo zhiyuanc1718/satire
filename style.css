@@ -4,26 +4,65 @@
     padding: 100px;
     color: red;
 }
+
 .title {
     color: coral;
     padding: 50px;
 }
 
-.container {
-    /*background-color: rgb(135,206,250);*/
-    
-    padding: 50px;
-    font-size: 20px;
-    opacity: 0.
+#trailer {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
 }
 
-h2{
+span {
+    color: darkblue;
+    font-size: larger;
+}
+
+.container {
+    padding: 50px;
+    font-size: 20px;
+    margin-left: 5%
+}
+
+h2 {
     text-align: center;
     font-size: 40px;
 }
 
+.linking {
+    float: right;
+    margin-right: 100px;
+    width: 400px;
+    height: 200px;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+a {
+    color: red;
+}
+
+.sequel {
+    background-image: url("phone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    text-align: right;
+}
+
+.prequel {
+    background-image: url("gameover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
 .name {
-    width:150px;
+    width: 150px;
     padding: 20px;
     font-size: 25px;
     font-family: 'Charm', cursive;
@@ -37,13 +76,13 @@ h2{
     margin-right: 40px;
 }
 
-.center{
-    width:120%;
+.center {
+    width: 120%;
 }
 
 .synopsis {
-    
-    height:10%;
+
+    height: 10%;
     min-width: 280px;
     max-width: 980px;
     margin: 0 auto;
@@ -52,21 +91,20 @@ h2{
     padding: 10px;
     color: red;
     opacity: 0.8;
-    
-    
 }
 
-h2{
-    font-family:  'Charm', cursive;
+h2 {
+    font-family: 'Charm', cursive;
     font-size: 30px;
-    
+
 }
 
-#game{
+#game {
     background-image: url("gameover.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding:200px;
+    padding: 250px;
+    margin-bottom: 50px;
 }
 
 
@@ -75,14 +113,41 @@ h2{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    /*https://svgsilh.com/image/2435642.html*/
-
 }
 
-body{
+body {
     background-color: lightblue;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+input[type=text] {
+    padding: 8px;
+    font-size: 15px;
+}
+
+
+input[type=submit] {
+    width: 20%;
+    padding: 10px;
+    background-color: coral;
+
+}
+
+input[type=submit]:hover {
+    background-color: lightgreen;
+    padding: 12px;
+}
+
+textarea {
+    font-size: 30px;
+    background-color: lightgrey;
+}
+
+.form {
+    color: navy;
+}
+>>>>>>> 88d4c51a5e4ad53a184bd3f693856dcd647488ad
